@@ -3,7 +3,7 @@ const links = {
   github: "https://github.com/moralesmorilla",
   linkedin: "https://www.linkedin.com/in/manuel-morales-morilla-a8a6663b1",
   hrRepository: "https://github.com/moralesmorilla/HR-Management-API",
-  hrDemo: "https://hrmanagementapi.vercel.app/",
+  hrDemo: "https://hr-management-api-production.up.railway.app/",
 };
 
 const menuButton = document.querySelector("#menu-toggle");
