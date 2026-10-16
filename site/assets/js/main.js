@@ -4,6 +4,7 @@ const links = {
   linkedin: "https://www.linkedin.com/in/manuel-morales-morilla-a8a6663b1",
   hrRepository: "https://github.com/moralesmorilla/HR-Management-API",
   hrDemo: "https://hr-management-api-production.up.railway.app/",
+  poolDemo: "https://control-de-piscina.vercel.app/",
 };
 
 const menuButton = document.querySelector("#menu-toggle");
@@ -18,6 +19,7 @@ function applyLinks() {
 
   wireProjectLink("[data-hr-code-link]", links.hrRepository);
   wireProjectLink("[data-hr-demo-link]", links.hrDemo);
+  wireProjectLink("[data-pool-demo-link]", links.poolDemo);
 }
 
 function wireProjectLink(selector, href) {
